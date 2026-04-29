@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from 'react';
 import Swal from 'sweetalert2';
 
-const API_URL = 'http://13.203.215.159:5000/students';
+const API_URL = 'http://13.235.95.125:5000/students';
 
 function App() {
   const [students, setStudents] = useState([]);
